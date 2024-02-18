@@ -1,0 +1,13 @@
+@startuml Practice_№1_BISO-02-21_Paromov_Y.A.
+:Пациент: as a
+package Поликлиника {
+usecase "Поставка на учёт" as UC1
+usecase "Снятие с учёта" as UC2
+usecase "Запись к врачу" as UC3
+usecase "Медицинская карта" as UC4
+}
+a --> UC1
+a --> UC2
+a --> UC3
+a --> UC4
+@enduml
